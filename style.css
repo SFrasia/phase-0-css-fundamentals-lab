@@ -4,6 +4,43 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 nav {
-  background-color: bisque;
+  text-align: center;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+
+#featured-property {
+  text-align: center;
+}
+
+figcaption {
+  font-size: small;
+  text-align: center;
+}
+
+#featured-property p {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+}
+
+#details {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  background-color: red;
+  text-align: center;
+  width: 25%;
 }
